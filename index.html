@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- scroll animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- scroll animation -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/shopping-logo.png">
+    <title>BD Shop E-commerce</title>
+</head>
+<body>
+<!-- ===================================
+*********header section start here ****** 
+=======================================-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+            <a href="/" class="fs-4 fw-bold navbar-brand">BD Shop</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavCollapseId">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="NavCollapseId">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item pe-4">
+                        <a href="/" class="text-light fw-bold nav-link">Home</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a href="#TrandingProductSection" class="text-light fw-bold nav-link">Product</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a href="#ContactSection" class="text-light fw-bold nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </li>
+                    <li class="nav-item pe-4">
+                        <button class="btn btn-outline-dark">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- ===================================
+*********header section end here ****** 
+=======================================-->
+
+
+ <!-- ===================================
+*********Home section start here ****** 
+=======================================-->
+<section class="Section1 pt-2 container">
+    <div class="row">
+        <div class="col-md-3 bg-light border-top-0 home_section">
+            <img class="w-100 rounded-2" src="img/carousel-1.jpg" alt="">
+            <img class="w-100 rounded-2" src="img/carousel-2.jpg" alt="">
+            <img class="w-100 rounded-2" src="img/carousel-3.jpg" alt="">
+        </div>
+        <div class="col-md-9">
+            <div class="carousel slide" data-bs-ride="carousel" id="carouselId">
+                <div class="carousel-inner">
+                    <div class="w-100 overflow-hidden carousel-item active">
+                        <img class="w-100" src="img/carousel-1.jpg" alt="slider image">
+                    </div>
+                    <div class="w-100 overflow-hidden carousel-item">
+                        <img class="w-100" src="img/carousel-2.jpg" alt="slider image">
+                    </div>
+                    <div class="w-100 overflow-hidden carousel-item">
+                        <img class="w-100" src="img/carousel-3.jpg" alt="slider image">
+                    </div>
+                    <div class="w-100 overflow-hidden carousel-item">
+                        <img class="w-100" src="img/carousel-4.jpg" alt="slider image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselId">
+                    <span class=" p-2 rounded-5 bg-danger carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselId">
+                    <span class=" p-2 rounded-5 bg-danger carousel-control-next-icon"></span>
+                </button>
+            </div> 
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+*********Home section end here ****** 
+=======================================-->
+
+
+ <!-- ===================================
+*********Product section start here ****** 
+=======================================-->
+<section class="section2 mt-5" id="buy_product_section">
+    <div class="container">
+        <h1 class="fw-bold fs-1 text-center mt-3"><span>BD Shop </span>E-commerce</h1>
+        <p class="text-center fw-bold">Buy Your Product</p>
+        <div class="row">
+            <div class="col-md-4  KarinaImg" data-aos="fade-right">
+                <img src="img/karina-apa.jpg" class="mw-100 mt-5 img-fluid" alt="karina apa">
+            </div>
+            <div class="col-md-8">
+                <div class="row mt-2"  id="section1" data-aos="fade-left">
+                    <!-- This data are coming from Api.jsx file -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+****Product display section end here  
+=======================================-->
+
+
+ <!-- ===================================
+*** tranding product section start here  
+=======================================-->
+<section class="section3" id="TrandingProductSection">
+    <div class="container-fluid">
+        <h2 class="heading text-center mb-5">Tranding <span>Product</span></h2>
+        <div class="row" data-aos="fade-up" id="trandingProductID">
+            <!-- This data are coming from Api.jsx file -->
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+*** tranding product section end here  
+=======================================-->
+
+
+ <!-- ===================================
+*** question section start here  
+=======================================-->
+<section class="section4" id="About-us">
+    <div class="container">
+        <h3 class="text-center heading mb-5">Know <span>more</span> about us</h3>
+        <div class="row">
+            <div class="col-md-7" data-aos="fade-right">
+                <div class="accordion show p-1">
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed " data-bs-toggle="collapse" data-bs-target="#AccordionId1">Our Service</button>
+                        <div class="accordion-collapse collapse show" id="AccordionId1">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, ducimus. Illo est consequuntur odit! Doloremque amet in vel unde, fugiat rerum repellendus tempore consequatur suscipit, fuga deleniti beatae vitae delectus.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="accordion p-1">
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed " data-bs-toggle="collapse" data-bs-target="#AccordionId2">Our Rulse</button>
+                        <div class="accordion-collapse collapse" id="AccordionId2">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, ducimus. Illo est consequuntur odit! Doloremque amet in vel unde, fugiat rerum repellendus tempore consequatur suscipit, fuga deleniti beatae vitae delectus.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="accordion p-1">
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed " data-bs-toggle="collapse" data-bs-target="#AccordionId3">Our History</button>
+                        <div class="accordion-collapse collapse" id="AccordionId3">
+                            <div class="accordion-body ">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, ducimus. Illo est consequuntur odit! Doloremque amet in vel unde, fugiat rerum repellendus tempore consequatur suscipit, fuga deleniti beatae vitae delectus.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <a href="https://www.facebook.com/rahitulislamrimon/" target="_blank"><button class="btn btn-outline-danger col-12 mt-4 mb-5">Click for more details</button></a>
+            </div>
+            <div class="col-md-5" data-aos="fade-left">
+                <img src="img/know-me-more.jpg" class="knowMeImg img-fluid" alt="know more ">
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+*** question section end here  
+=======================================-->
+
+
+
+
+ <!-- ===================================
+*** Shop By Brand section start here  
+=======================================-->
+<section class="section5 mt-5" id="brand">
+    <div class="container">
+        <h4 class="heading mb-3">Shop by <span>brand</span></h4>
+        <div class="row g-0" id="ShopByBrandID" data-aos="fade-up"> 
+            <!-- This data are coming from Api.jsx file -->
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+*** Shop By Brand section end here  
+=======================================-->
+
+
+
+ <!-- ===================================
+*** top selling section start here  
+=======================================-->
+<section class="section6" id="TopSellingProductSection">
+    <div class="container">
+        <h5 class="heading"><span>Top</span> selling product</h5>
+        <div class="row" id="TopSellingProduct" data-aos="fade-up">
+             <!-- This data are coming from Api.jsx file -->
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+*** top selling section end here  
+=======================================-->
+
+
+ <!-- ===================================
+*** headphone slide section start here  
+=======================================-->
+<section class="section7" id="ShopNow" data-aos="fade-up">
+    <div class="container">
+        <a href="https://www.facebook.com/rimonprogrammer/" target="_blank"><img src="img/headphoneSlide.png" class="img-fluid" alt="head phone image"></a>
+    </div>
+</section>
+ <!-- ===================================
+***  headphone slide section start here  
+=======================================-->
+
+
+ <!-- ===================================
+***  Order section start here  
+=======================================-->
+<section id="ContactSection">
+    <div class="container">
+        <div class="row ">
+            <h6 class="text-center heading mt-5"><span>Order</span> Your Products</h6>
+            <div class="col-md-7 pb-3 mt-3 border border-success border-1 rounded-3" data-aos="fade-right">
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6 mt-3">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control mt-1 border-success rounded-3" id="name" placeholder="Enter Your Full Name" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="Email">Email </label>
+                            <input type="text" class="form-control mt-1 border-success rounded-3" id="Email" placeholder="Enter Your Email " required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mt-3">
+                            <select class="form-select border-success rounded-3" required>
+                                <option value="1">Your Country</option>
+                                <option value="2">Bangladesh</option>
+                                <option value="2">India</option>
+                                <option value="2">Japan</option>
+                                <option value="2">Singapure</option>
+                                <option value="2">Malaysia</option>
+                                <option value="2">Nigeria</option>
+                                <option value="2">England</option>
+                                <option value="2">Saudiaroup</option>
+                                <option value="2">America</option>
+                                <option value="2">Australia</option>
+                                <option value="2">Dubai</option>
+                                <option value="2">Franch</option>
+                                <option value="2">Brazil</option>
+                                <option value="2">Arzentina</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <input type="text" class="form-control border-success rounded-3"  placeholder=" Your City" required>
+                        </div>
+                    </div>
+                    <div class="mt-3"> 
+                        <label for="Address">Shipping Address</label> 
+                        <input type="text" class="form-control mt-1 border-success rounded-3" id="Address" placeholder=" Your Address" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mt-3">
+                            <input type="text" class="form-control mt-1 border-success rounded-3"  placeholder="Postal/Zip" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <input type="text" class="form-control mt-1 border-success rounded-3"  placeholder="Region" required>
+                        </div>
+                    </div>
+                    <div class=" mt-3"> 
+                        <label for="messege">Send messege</label> 
+                        <textarea class="form-control mt-1 border-success rounded-3" id="messege">Write a messege....</textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="reset" class="btn btn-outline-danger mt-3 col-12 " value="Clear Form">
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-outline-success mt-3 col-12">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 mt-3" data-aos="fade-left">
+                <img src="img/contact.jpg" class="img-fluid rounded-2" alt="contact image">
+            </div>
+            
+        </div>
+    </div>
+</section>
+ <!-- ===================================
+***  Order section end here  
+=======================================-->
+
+
+
+ <!-- ===================================
+***  footer section start here  
+=======================================-->
+<footer data-aos="zoom-in">
+    <div class="container">
+        <h3 class="text-center text-info fw-bold">BD Shop</h3>
+        <hr class="m-0">
+        <div class="row mt-3">
+            <div class="col-md-3 d-flex justify-content-center">
+                <div>
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam at dolorum unde, eum accusamus excepturi minus ut officia nostrum. Alias suscipit explicabo error quidem omnis eius, officia ea molestias vero.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Menu</h5>
+                <ul>
+                    <li>✅<a href="#About-us">About-us</a></li>
+                    <li>✅<a href="#TopSellingProductSection">Top Selling Product</a></li>
+                    <li>✅<a href="#ContactSection">Contact</a></li>
+                    <li>✅<a href="#ShopNow">Order</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>General Links</h5>
+                <ul>
+                    <li>✅<a href="#buy_product_section-us">By-Product</a></li>
+                    <li>✅<a href="#TrandingProductSection">Tranding-Product</a></li>
+                    <li>✅<a href="#brand">Brand</a></li>
+                    <li>✅<a href="https://www.linkedin.com/in/nobenur-islam-rimon/" target="_blank">Contact with programmer</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Contact-us</h5>
+                <ul>
+                    <li>✅<a href="https://www.linkedin.com/in/nobenur-islam-rimon/" target="_blank">LinkedIn</a></li>
+                    <li>✅<a href="https://www.facebook.com/rimonprogrammer/" target="_blank">Facebook</a></li>
+                    <li>✅<a href="https://www.instagram.com/rahitul_islam_rimon/" target="_blank">Instagram</a></li>
+                    <li>✅<a href="https://whatsapp.com/dl/" target="_blank">WhatsApp: 01313687347</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <hr class="m-0 ">
+        <p class="text-center fw-bold mt-2">&copy; CopyRight || All rightreserved by <a href="https://www.linkedin.com/in/nobenur-islam-rimon/" target="_blank">Md Nobenur Islam Rimon</a> (Web developer)</p>
+    </div>
+</footer>
+ <!-- ===================================
+***  footer section end here  
+=======================================-->
+
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+    <!-- scroll animationr -->
+
+    <script src="js/Api.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
