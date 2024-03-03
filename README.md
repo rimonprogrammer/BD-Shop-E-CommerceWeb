@@ -24,9 +24,7 @@ This a a BD-Shop e-commerce website. This website is made with html, css, bootst
 Live: https://rimonprogrammer.github.io/Funbrain_Educational/
 <h4>Follow the 3 Steps to get the project</h4>
 <ul>
-  <li>Clone the Project</li>
-  <li>Simply run the command (npm install) for node_modulees folder</li>
-  <li> run the project using npm run dev</li>
+  <li>Download the project and open it in the code editor. Then right-click on the index.html file and click open with live server.</li>
 </ul>
 
 <h4>Project screenshot</h4>
