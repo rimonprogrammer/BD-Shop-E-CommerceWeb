@@ -28,6 +28,7 @@ Live: https://rimonprogrammer.github.io/Funbrain_Educational/
 </ul>
 
 <h4>Project screenshot</h4>
+<p>BD_Shop e-commerce website home page image</p>
 <img src="https://rimonprogrammer.netlify.app/public/bd-shop-1.jpg" alt="BD-Shop e-commerce website screenshot" >
 <img src="https://rimonprogrammer.netlify.app/public/bd-shop-2.jpg" alt="BD-Shop e-commerce website screenshot" >
 <img src="https://rimonprogrammer.netlify.app/public/bd-shop-3.jpg" alt="BD-Shop e-commerce website screenshot" >
